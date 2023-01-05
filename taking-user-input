@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args)
+    {
+      Scanner scanner = new Scanner(System.in);
+
+      System.out.println("Enter your name:");
+      String name = scanner.nextLine();
+
+      System.out.println("Enter your age:");
+      int age= scanner.nextInt();
+        scanner.nextLine();
+
+      System.out.println("Enter your Qualification:");
+      String qualification = scanner.nextLine();
+
+      System.out.println("Enter your Current Semester:");
+      int sem = scanner.nextInt();
+        scanner.nextLine();
+
+      System.out.println("Your Name is "+name );
+      System.out.println("Your Age is "+age );
+      System.out.println("Your Qualification is "+qualification );
+      System.out.println("Your Current Semester is "+sem );
+    }
+}
