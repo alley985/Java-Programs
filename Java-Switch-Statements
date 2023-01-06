@@ -1,0 +1,32 @@
+public class Main {
+    public static void main(String[] args)
+    {
+        String DAY="FRIDAY";
+        switch (DAY){
+            case "MONDAY":
+                System.out.println("IT'S MONDAY");
+                break;
+            case "TUESDAY":
+                System.out.println("IT'S TUESDAY");
+                break;
+            case "WEDNESDAY":
+                System.out.println("IT'S WEDNESDAY");
+                break;
+            case "THURSDAY":
+                System.out.println("IT'S THURSDAY");
+                break;
+            case "FRIDAY":
+                System.out.println("IT'S FRIDAY");
+                break;
+            case "SATURDAY":
+                System.out.println("IT'S SATURDAY");
+                break;
+            case "SUNDAY":
+                System.out.println("IT'S SUNDAY");
+                break;
+            default:
+                System.out.println("IT'S NOT A WEEKDAY");
+
+        }
+    }
+}
